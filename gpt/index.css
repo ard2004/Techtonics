@@ -1,0 +1,24 @@
+* A4 size container */
+.a4-container {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the text field and button */
+#documentSearch {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#viewButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

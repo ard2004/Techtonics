@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.39.0/gradio.js"></script>
+    <link rel="stylesheet" type="text/css" href="gpt.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="main-container col-lg-6" id="main">
+                <div class="chat-bot-container">
+                    <gradio-app src="https://purnimabehuria-purnimaaimodel.hf.space"></gradio-app>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <!-- Add content for the second column, if needed -->
+            </div>
+        </div>
+    </div>
+    <script src="gpt.js"></script>
+
+</body>
+
+</html>

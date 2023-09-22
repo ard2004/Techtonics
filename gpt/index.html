@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Viewer</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <style>
+
+    </style>
+    <div class="a4-container">
+        <h1>Document Viewer</h1>
+        <form id="documentForm" action="http://localhost:3001/api/documents" method="POST">
+            <label for="documentSearch">Search Document:</label>
+            <input type="text" id="documentSearch" name="documentSearch">
+            <button type="submit" id="viewButton">View Document</button>
+        </form>
+        <hr>
+        <!-- Placeholder for displaying fetched document -->
+        <div id="documentDisplay">
+            <!-- Document content will be displayed here -->
+        </div>
+    </div>
+</body>
+</html>
