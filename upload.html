@@ -1,13 +1,215 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title></title>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <form action="http://0.0.0.0:3001/upload" method="POST" enctype="multipart/form-data">
-      <input type="file" name="image"><br>
-      <button type="submit">upload</button>
-    </form> 
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document uploader</title>
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-light bg-light">
+        <a class="navbar-brand" href="#"><span >TECHTONICS</a></span>
+        </nav>
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <!-- <div class="col-lg-3 col-md-6 mb-4 mb-md-0"> -->
+                <div class="col-md-6">
+        <ul>
+            <div class="container">
+        <div class="legal-card row">
+            <div class="container">
+                <div class="row">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Language
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                      <hr>
+            </div>
+            <p>Insert Text or URl to Summerize</p>
+            
+            <span class="styles_fileUploadWrapper__Et7ks">
+                <div class="styles_dropZone__raAxD ">
+                    <form action="http://0.0.0.0:3001/upload" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="image" enctype="multipart/form-data" ><br>
+                    <p class="styles_p__SjqmT default styles_fileExtensionsTypo__y0A_8">browse files to upload </p>
+                    <button class="executionButtons" type="submit" style="padding: 10px; border: solid 1px black;border-radius: 5px;background-color: #00ed64 ;color: #001e2b; ">
+                      upload
+                    </button> 
+                    </form>
+                </div></span>
+            
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                
+            <form id="search-form" action="" method="GET">
+                <div class="input-group document-search">
+                    <input type="text" class="form-control input-city" id='city' name='city' placeholder="What legal information you want to know" />
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary"> 
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                    <button type="submit" class="btn btn-secondary"> 
+                        Summary
+                    
+                    </div>
+                </div>
+              
+            </form>
+            </div>
+        </div>
+        </ul>
+              </div>
+              <div class="col-md-6">    
+        <ul>
+            <div class="legal-card row">
+                <br>
+            <br>   
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div> <h3 >Summarize</h3>
+            <hr>
+        
+            </div>
+           
+            
+            </div>
+            </ul>
+              </div>
+            </div>
+        </div>
+
+        <footer class="bg-dark text-center text-white ">
+   
+            <!-- Grid container -->
+            <div class="container p-4">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="">Information Related To</h5>
+          
+                  <ul>
+                    <li><a href="/topics/agriculture" role="link">Agriculture</a></li>
+                    <li><a href="/topics/art-culture" role="link">Art &amp; Culture</a></li>
+                    <li><a href="/topics/commerce" role="link">Commerce</a></li>
+                    <li><a href="/topics/communications-it" role="link">Communication</a></li>
+                    <li><a href="/topics/defence" role="link">Defence</a></li>
+                    <li><a href="/topics/education" role="link">Education</a></li>
+                    <li><a href="/topics/environment-forest" role="link">Environment &amp; Forest</a></li>
+                    <li><a href="/topics/finance-taxes" role="link">Finance &amp; Taxes</a></li>
+                    <li><a href="/topics/food-public-distribution" role="link">Food &amp; Public Distribution</a></li>
+                    <li><a href="/topics/foreign-affairs" role="link">Foreign Affairs</a></li>
+                    <li><a href="/topics/governance-administration" role="link">Governance &amp; Administration</a></li>
+                    <li><a href="/topics/health-family-welfare" role="link">Health &amp; Family Welfare</a></li>
+                    <li><a href="/topics/housing" role="link">Housing</a></li>
+                  </ul>
+                </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <ul>
+                  <br>
+                    <li><a href="/topics/home-affairs-enforcement" role="link">Home Affairs &amp; Enforcement</a></li>
+                    <li><a href="/topics/industries" role="link">Industries</a></li>
+                    <li><a href="/topics/infrastructure" role="link">Infrastructure</a></li>
+                    <li><a href="/topics/information-broadcasting" role="link">Information &amp; Broadcasting</a></li>
+                    <li><a href="/topics/labour-employment" role="link">Labour &amp; Employment</a></li>
+                    <li><a href="/topics/law-justice" role="link">Law &amp; Justice</a></li>
+                    <li><a href="/topics/power-energy" role="link">Power &amp; Energy</a></li>
+                    <li><a href="/topics/rural" role="link">Rural</a></li>
+                    <li><a href="/topics/science-technology" role="link">Science &amp; Technology</a></li>
+                    <li><a href="/topics/social-development" role="link">Social Development</a></li>
+                    <li><a href="/topics/transport" role="link">Transport</a></li>
+                    <li><a href="/topics/travel-tourism" role="link">Travel &amp; Tourism</a></li>
+                    <li><a href="/topics/youth-sports" role="link">Youth &amp; Sports</a></li>
+                  </ul>
+          
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5><a href="/my-government" role="link"><span>About the Government</span></a></h5>
+                        <ul>
+                          <li><a href="/my-government/constitution-india" role="link">Constitution of India</a></li>
+                          <li><a href="/my-government/government-directory" role="link">Government Directory</a></li>
+                          <li><a href="/my-government/indian-parliament" role="link">Indian Parliament</a></li>
+                          <li><a href="/my-government/publications" role="link">Publications</a></li>
+                          <li><a href="/my-government/whos-who" role="link">Who's Who</a></li>
+                          <li><a href="/my-government/whos-who/president" role="link">President of India</a></li>
+                          <li><a href="/my-government/whos-who/vice-president" role="link">Vice-President of India</a></li>
+                          <li><a href="/my-government/whos-who/prime-minister" role="link">Prime Minister of India</a></li>
+                          <li><a href="/my-government/whos-who/council-ministers" role="link">Cabinet Ministers</a></li>
+                          <li><a href="/my-government/whos-who/chiefs-armed-forces" role="link">Chiefs of Armed Forces</a></li>
+                          <li><a href="/my-government/whos-who/members-parliament" role="link">Members of Parliament</a></li>
+                        </ul>
+                        
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <ul>
+                   < <a title="Data Portal India (External site that opens in a new window)" target="_blank" href="https://data.gov.in/"><img src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/img-ftr-open-data-portal.png" alt="Data Portal India"></a>
+                   
+                   
+                    <a title="Press Information Bureau Government of India (External site that opens in a new window)" target="_blank" href="https://pib.gov.in/"><img src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/pib.png" alt="Press Information Bureau Government of India"></a>
+                   
+        
+                   </li>
+                </ul>    
+                </div>  
+        
+                </div>
+                
+        
+                
+        
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+</body>
 </html>

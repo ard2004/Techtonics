@@ -14,7 +14,15 @@ const handleFile = ()=>{
       return callback(null,"./uploads")
     },
     filename: function(req,file,callback){
-      return callback(null, `${filenames.length+1}_${file.originalname}`)
+      if(filenames.length == 0){
+        return callback(null, `marriage.pdf`)
+      } 
+      if (filenames.length == 1){
+        return callback(null,`divorce.pdf`)
+      }
+      if (filenames.length == 2){
+        return callback(null,`legal heir.pdf`)
+      }
     }
   })
   const upload = multer({storage})
@@ -25,7 +33,7 @@ const handleFile = ()=>{
   app.post('/upload',upload.single('image'),async(req,res)=>{
     console.log(req.body)
     console.log(req.file)
-    return res.send(`${req.file.path}`)
+    return res.send(`<H1> FIlE HAS BEEN UPLOADED SUCCESSFULLY! </H1>`)
   })
   const port = process.env.PORT ?? 3001;
   app.listen(port,()=>{
